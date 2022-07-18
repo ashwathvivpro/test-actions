@@ -11,7 +11,7 @@ on:
           - dev2
           - dev3
       branch:
-        description: 'Define Front End Branch Name'     
+        description: 'Define Backend Branch Name'     
         required: true
         default: 'master'
 
