@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        type: options
+        type: choice
         description: 'Define env name'     
         required: true
         default: 'dev1'
